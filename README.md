@@ -10,14 +10,8 @@
 
 ## Database
 - Install postgresql 9.6 database: https://content-www.enterprisedb.com/postgresql-tutorial-resources-training?cid=71
-- Go to the installed postgresql folder, there is a client tool bin/pgAdmin3.exe, we can use this tool to restore and bootstrap the demo data. Use pgAdmin3 setup the db connection with host:localhost, port:5432, database:stm, username:ss1604c195, password=7a940306. Create a db schema "ss1604c195_rd2", right click it to restore and bootstrap data from the latest "src\main\resources\script\bak_pgadmin_*.backup"
-- After we restore db structure, we can use JOOQ reverse-engine to generate the DB model code with the following command.
-// The phase id should match the following pom.xml configuration.
-// pom.xml
-//   <id>postgres</id>
-//   ...
-//   <artifactId>jooq-codegen-maven</artifactId>
-$ mvnw generate-sources -P postgres
+- Install pgAdmin4 client UI: https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v6.1/windows/pgadmin4-6.1-x64.exe, we can use this tool to restore and bootstrap the demo data. Use pgAdmin4 setup the db connection with host:localhost, port:5432, database:stm, username:ss1604c195, password=7a940306. Make sure the user is the owner of the db. Create a db schema "ss1604c195_rd2", right click it to restore and bootstrap data from the latest "src\main\resources\script\bak_pgadmin_*.backup". Alternatively, You can also run the sqls to restore the schema and data, make sure you run the "reset.sql" first and then run the "bak_*.sql"
+- After we restore db structure, we can use JOOQ reverse-engine to generate the DB model code with the following command: cd to project's folder, run $ generate。cmd
 
 
 # Others

@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION fn_recruit_pool_update()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_pool_update()  
 RETURNS trigger AS  
 $$  
 BEGIN  

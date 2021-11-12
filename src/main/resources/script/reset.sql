@@ -4,7 +4,7 @@ create schema ss1604c195_rd2;
 
 ---------------##########Replace Start 1 With Start 666666#########--------------------
 -----------------------##########TRIGGER FUNCTIONS#########----------------------------
-CREATE OR REPLACE FUNCTION fn_recruit_applyment_insert()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_applyment_insert()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -16,7 +16,7 @@ $$
 LANGUAGE 'plpgsql';
 
 
-CREATE OR REPLACE FUNCTION fn_recruit_applyment_update()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_applyment_update()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -27,7 +27,7 @@ END;
 $$  
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION fn_recruit_pool_insert()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_pool_insert()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -42,7 +42,7 @@ END;
 $$  
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION fn_recruit_pool_update()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_pool_update()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -57,7 +57,7 @@ END;
 $$  
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION fn_recruit_position_insert()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_position_insert()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -74,7 +74,7 @@ END;
 $$  
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION fn_recruit_position_update()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_recruit_position_update()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -91,7 +91,7 @@ END;
 $$  
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION fn_staffing_change_insert()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_staffing_change_insert()  
 RETURNS trigger AS  
 $$  
 BEGIN  
@@ -106,7 +106,7 @@ END;
 $$  
 LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION fn_staffing_change_update()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_staffing_change_update()  
 RETURNS trigger AS  
 $$  
 BEGIN  

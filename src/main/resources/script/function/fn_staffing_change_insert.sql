@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION fn_staffing_change_insert()  
+CREATE OR REPLACE FUNCTION ss1604c195_rd2.fn_staffing_change_insert()  
 RETURNS trigger AS  
 $$  
 BEGIN  
