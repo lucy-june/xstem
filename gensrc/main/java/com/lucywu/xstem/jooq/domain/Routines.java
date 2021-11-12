@@ -4,11 +4,6 @@
 package com.lucywu.xstem.jooq.domain;
 
 
-import javax.annotation.Generated;
-
-import org.jooq.Configuration;
-import org.jooq.Field;
-
 import com.lucywu.xstem.jooq.domain.routines.FnRecruitApplymentInsert;
 import com.lucywu.xstem.jooq.domain.routines.FnRecruitApplymentUpdate;
 import com.lucywu.xstem.jooq.domain.routines.FnRecruitPoolInsert;
@@ -17,6 +12,11 @@ import com.lucywu.xstem.jooq.domain.routines.FnRecruitPositionInsert;
 import com.lucywu.xstem.jooq.domain.routines.FnRecruitPositionUpdate;
 import com.lucywu.xstem.jooq.domain.routines.FnStaffingChangeInsert;
 import com.lucywu.xstem.jooq.domain.routines.FnStaffingChangeUpdate;
+
+import javax.annotation.Generated;
+
+import org.jooq.Configuration;
+import org.jooq.Field;
 
 
 /**

@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.CheckAttendance;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 
@@ -14,8 +16,6 @@ import org.jooq.Record1;
 import org.jooq.Record8;
 import org.jooq.Row8;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.CheckAttendance;
 
 
 /**
@@ -31,7 +31,7 @@ import com.lucywu.xstem.jooq.domain.tables.CheckAttendance;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class CheckAttendanceRecord extends UpdatableRecordImpl<CheckAttendanceRecord> implements Record8<Integer, Integer, Date, Integer, Integer, Integer, Timestamp, Timestamp> {
 
-	private static final long serialVersionUID = -360434232;
+	private static final long serialVersionUID = -111323546;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.check_attendance.attendanceid</code>.

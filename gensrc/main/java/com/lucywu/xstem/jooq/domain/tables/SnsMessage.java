@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.SnsMessageRecord;
+
 import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.List;
@@ -16,10 +20,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.SnsMessageRecord;
 
 
 /**
@@ -35,7 +35,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.SnsMessageRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class SnsMessage extends TableImpl<SnsMessageRecord> {
 
-	private static final long serialVersionUID = -1104450625;
+	private static final long serialVersionUID = -1697840753;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.sns_message</code>

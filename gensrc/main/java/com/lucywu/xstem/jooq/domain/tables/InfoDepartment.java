@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.InfoDepartmentRecord;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,10 +19,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.InfoDepartmentRecord;
 
 
 /**
@@ -34,7 +34,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.InfoDepartmentRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class InfoDepartment extends TableImpl<InfoDepartmentRecord> {
 
-	private static final long serialVersionUID = -697937762;
+	private static final long serialVersionUID = -660897170;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.info_department</code>

@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.NotifyPointer;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record5;
 import org.jooq.Row5;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.NotifyPointer;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.NotifyPointer;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class NotifyPointerRecord extends UpdatableRecordImpl<NotifyPointerRecord> implements Record5<Integer, Integer, Integer, Integer, Timestamp> {
 
-	private static final long serialVersionUID = 831770057;
+	private static final long serialVersionUID = 1006315367;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.notify_pointer.ID</code>.

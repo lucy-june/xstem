@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.RecruitPublished;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
@@ -11,8 +13,6 @@ import org.jooq.Record1;
 import org.jooq.Record3;
 import org.jooq.Row3;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.RecruitPublished;
 
 
 /**
@@ -28,7 +28,7 @@ import com.lucywu.xstem.jooq.domain.tables.RecruitPublished;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitPublishedRecord extends UpdatableRecordImpl<RecruitPublishedRecord> implements Record3<Integer, Integer, Integer> {
 
-	private static final long serialVersionUID = 752866647;
+	private static final long serialVersionUID = 940260853;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.recruit_published.publishedid</code>.

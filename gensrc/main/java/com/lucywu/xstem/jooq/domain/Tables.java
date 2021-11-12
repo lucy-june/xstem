@@ -4,8 +4,6 @@
 package com.lucywu.xstem.jooq.domain;
 
 
-import javax.annotation.Generated;
-
 import com.lucywu.xstem.jooq.domain.tables.CheckAttendance;
 import com.lucywu.xstem.jooq.domain.tables.CheckPerformance;
 import com.lucywu.xstem.jooq.domain.tables.CheckSkill;
@@ -34,6 +32,8 @@ import com.lucywu.xstem.jooq.domain.tables.ViCareerLastMonth;
 import com.lucywu.xstem.jooq.domain.tables.ViRecruitApplymentHistory;
 import com.lucywu.xstem.jooq.domain.tables.ViRecruitInterviewContext;
 import com.lucywu.xstem.jooq.domain.tables.ViRecruitInterviewReminder;
+
+import javax.annotation.Generated;
 
 
 /**

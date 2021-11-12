@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.RecruitInterview;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record8;
 import org.jooq.Row8;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.RecruitInterview;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.RecruitInterview;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitInterviewRecord extends UpdatableRecordImpl<RecruitInterviewRecord> implements Record8<Integer, Timestamp, String, String, String, String, Integer, Timestamp> {
 
-	private static final long serialVersionUID = -1595129442;
+	private static final long serialVersionUID = 2010909248;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.recruit_interview.interviewid</code>.

@@ -4,15 +4,15 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.ViCareerLastMonthRecord;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
 import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.ViCareerLastMonthRecord;
 
 
 /**
@@ -28,7 +28,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.ViCareerLastMonthRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ViCareerLastMonth extends TableImpl<ViCareerLastMonthRecord> {
 
-	private static final long serialVersionUID = 1513810312;
+	private static final long serialVersionUID = 724303972;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.vi_career_last_month</code>

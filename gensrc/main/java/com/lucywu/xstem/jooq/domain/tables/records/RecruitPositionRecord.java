@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.RecruitPosition;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 
@@ -14,8 +16,6 @@ import org.jooq.Record1;
 import org.jooq.Record18;
 import org.jooq.Row18;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.RecruitPosition;
 
 
 /**
@@ -31,7 +31,7 @@ import com.lucywu.xstem.jooq.domain.tables.RecruitPosition;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitPositionRecord extends UpdatableRecordImpl<RecruitPositionRecord> implements Record18<String, Integer, String, Date, Integer, String, String, String, String, String, Integer, Integer, Timestamp, Timestamp, Integer, Integer, String, Boolean> {
 
-	private static final long serialVersionUID = -318884482;
+	private static final long serialVersionUID = 1269692956;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.recruit_position.positionname</code>.

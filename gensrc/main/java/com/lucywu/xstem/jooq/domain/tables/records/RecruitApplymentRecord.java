@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.RecruitApplyment;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record7;
 import org.jooq.Row7;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.RecruitApplyment;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.RecruitApplyment;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitApplymentRecord extends UpdatableRecordImpl<RecruitApplymentRecord> implements Record7<Integer, Integer, Integer, Integer, Timestamp, Timestamp, Integer> {
 
-	private static final long serialVersionUID = 1729417799;
+	private static final long serialVersionUID = -622258583;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.recruit_applyment.steid</code>.

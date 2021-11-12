@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.RecruitPositionLogRecord;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.Arrays;
@@ -17,10 +21,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.RecruitPositionLogRecord;
 
 
 /**
@@ -36,7 +36,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.RecruitPositionLogRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitPositionLog extends TableImpl<RecruitPositionLogRecord> {
 
-	private static final long serialVersionUID = -230158838;
+	private static final long serialVersionUID = -1490429990;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.recruit_position_log</code>

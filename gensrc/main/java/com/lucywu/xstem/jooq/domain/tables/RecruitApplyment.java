@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.RecruitApplymentRecord;
+
 import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.List;
@@ -16,10 +20,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.RecruitApplymentRecord;
 
 
 /**
@@ -35,7 +35,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.RecruitApplymentRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitApplyment extends TableImpl<RecruitApplymentRecord> {
 
-	private static final long serialVersionUID = 1450598319;
+	private static final long serialVersionUID = 508699007;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.recruit_applyment</code>

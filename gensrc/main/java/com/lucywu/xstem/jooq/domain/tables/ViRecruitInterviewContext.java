@@ -4,6 +4,9 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.ViRecruitInterviewContextRecord;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 
@@ -13,9 +16,6 @@ import org.jooq.Field;
 import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.ViRecruitInterviewContextRecord;
 
 
 /**
@@ -31,7 +31,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.ViRecruitInterviewContextReco
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ViRecruitInterviewContext extends TableImpl<ViRecruitInterviewContextRecord> {
 
-	private static final long serialVersionUID = -1651538598;
+	private static final long serialVersionUID = 868195582;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.vi_recruit_interview_context</code>

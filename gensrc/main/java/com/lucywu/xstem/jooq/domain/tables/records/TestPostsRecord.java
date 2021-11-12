@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.TestPosts;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record4;
 import org.jooq.Row4;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.TestPosts;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.TestPosts;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class TestPostsRecord extends UpdatableRecordImpl<TestPostsRecord> implements Record4<Integer, String, String, Timestamp> {
 
-	private static final long serialVersionUID = 706191186;
+	private static final long serialVersionUID = 1455698676;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.test_posts.ID</code>.

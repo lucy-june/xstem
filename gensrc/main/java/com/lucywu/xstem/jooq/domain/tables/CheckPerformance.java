@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.CheckPerformanceRecord;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.Arrays;
@@ -17,10 +21,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.CheckPerformanceRecord;
 
 
 /**
@@ -36,7 +36,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.CheckPerformanceRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class CheckPerformance extends TableImpl<CheckPerformanceRecord> {
 
-	private static final long serialVersionUID = -252015469;
+	private static final long serialVersionUID = 953477315;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.check_performance</code>

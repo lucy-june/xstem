@@ -4,12 +4,12 @@
 package com.lucywu.xstem.jooq.domain.routines;
 
 
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+
 import javax.annotation.Generated;
 
 import org.jooq.Parameter;
 import org.jooq.impl.AbstractRoutine;
-
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
 
 
 /**
@@ -25,7 +25,7 @@ import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class FnRecruitPoolUpdate extends AbstractRoutine<Object> {
 
-	private static final long serialVersionUID = -406756995;
+	private static final long serialVersionUID = -645209617;
 
 	/**
 	 * The parameter <code>ss1604c195_rd2.fn_recruit_pool_update.RETURN_VALUE</code>.

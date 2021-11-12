@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.InfoSte;
+
 import java.sql.Date;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record17;
 import org.jooq.Row17;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.InfoSte;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.InfoSte;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class InfoSteRecord extends UpdatableRecordImpl<InfoSteRecord> implements Record17<Integer, String, Boolean, Date, String, String, String, String, String, Integer, Integer, String, String, Integer, String, String, String> {
 
-	private static final long serialVersionUID = 1028107843;
+	private static final long serialVersionUID = 1561961185;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.info_ste.steid</code>.

@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.SnsTimeline;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record6;
 import org.jooq.Row6;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.SnsTimeline;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.SnsTimeline;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class SnsTimelineRecord extends UpdatableRecordImpl<SnsTimelineRecord> implements Record6<Integer, Integer, Integer, Timestamp, String, Integer> {
 
-	private static final long serialVersionUID = 1548780421;
+	private static final long serialVersionUID = -1932131545;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.sns_timeline.timelineid</code>.

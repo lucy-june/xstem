@@ -4,14 +4,14 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.ViCareerLastMonth;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
 import org.jooq.Record11;
 import org.jooq.Row11;
 import org.jooq.impl.TableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.ViCareerLastMonth;
 
 
 /**
@@ -27,7 +27,7 @@ import com.lucywu.xstem.jooq.domain.tables.ViCareerLastMonth;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ViCareerLastMonthRecord extends TableRecordImpl<ViCareerLastMonthRecord> implements Record11<Integer, String, Integer, Integer, String, String, Long, Long, Long, Long, String> {
 
-	private static final long serialVersionUID = -1217697575;
+	private static final long serialVersionUID = 257026939;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.vi_career_last_month.steid</code>.

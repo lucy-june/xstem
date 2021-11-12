@@ -4,13 +4,6 @@
 package com.lucywu.xstem.jooq.domain;
 
 
-import javax.annotation.Generated;
-
-import org.jooq.ForeignKey;
-import org.jooq.Identity;
-import org.jooq.UniqueKey;
-import org.jooq.impl.AbstractKeys;
-
 import com.lucywu.xstem.jooq.domain.tables.CheckAttendance;
 import com.lucywu.xstem.jooq.domain.tables.CheckPerformance;
 import com.lucywu.xstem.jooq.domain.tables.CheckSkill;
@@ -57,6 +50,13 @@ import com.lucywu.xstem.jooq.domain.tables.records.StaffingChangeLogRecord;
 import com.lucywu.xstem.jooq.domain.tables.records.StaffingChangeRecord;
 import com.lucywu.xstem.jooq.domain.tables.records.TestCommentsRecord;
 import com.lucywu.xstem.jooq.domain.tables.records.TestPostsRecord;
+
+import javax.annotation.Generated;
+
+import org.jooq.ForeignKey;
+import org.jooq.Identity;
+import org.jooq.UniqueKey;
+import org.jooq.impl.AbstractKeys;
 
 
 /**

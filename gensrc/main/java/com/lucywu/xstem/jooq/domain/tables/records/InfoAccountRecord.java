@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.InfoAccount;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
@@ -11,8 +13,6 @@ import org.jooq.Record1;
 import org.jooq.Record5;
 import org.jooq.Row5;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.InfoAccount;
 
 
 /**
@@ -28,7 +28,7 @@ import com.lucywu.xstem.jooq.domain.tables.InfoAccount;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class InfoAccountRecord extends UpdatableRecordImpl<InfoAccountRecord> implements Record5<Integer, String, String, Integer, Integer> {
 
-	private static final long serialVersionUID = -2116693990;
+	private static final long serialVersionUID = -290062404;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.info_account.accountid</code>.

@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.SnsMessage;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record8;
 import org.jooq.Row8;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.SnsMessage;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.SnsMessage;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class SnsMessageRecord extends UpdatableRecordImpl<SnsMessageRecord> implements Record8<Integer, Integer, Integer, Integer, Integer, String, Timestamp, Integer> {
 
-	private static final long serialVersionUID = 1643222947;
+	private static final long serialVersionUID = -1395606847;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.sns_message.messageid</code>.

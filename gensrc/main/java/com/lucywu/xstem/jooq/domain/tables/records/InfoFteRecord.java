@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.InfoFte;
+
 import java.sql.Date;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record11;
 import org.jooq.Row11;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.InfoFte;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.InfoFte;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class InfoFteRecord extends UpdatableRecordImpl<InfoFteRecord> implements Record11<Integer, String, String, Boolean, String, Integer, Date, String, Integer, String, String> {
 
-	private static final long serialVersionUID = 1507412373;
+	private static final long serialVersionUID = 661393847;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.info_fte.fteid</code>.

@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.InfoFteRecord;
+
 import java.sql.Date;
 import java.util.Arrays;
 import java.util.List;
@@ -16,10 +20,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.InfoFteRecord;
 
 
 /**
@@ -35,7 +35,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.InfoFteRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class InfoFte extends TableImpl<InfoFteRecord> {
 
-	private static final long serialVersionUID = 435876058;
+	private static final long serialVersionUID = -1229665014;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.info_fte</code>

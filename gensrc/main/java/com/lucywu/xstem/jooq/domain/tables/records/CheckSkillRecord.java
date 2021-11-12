@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.CheckSkill;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record9;
 import org.jooq.Row9;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.CheckSkill;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.CheckSkill;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class CheckSkillRecord extends UpdatableRecordImpl<CheckSkillRecord> implements Record9<Integer, String, Integer, Integer, Timestamp, Timestamp, Integer, String, Integer> {
 
-	private static final long serialVersionUID = 1800646955;
+	private static final long serialVersionUID = 1575043529;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.check_skill.steid</code>.

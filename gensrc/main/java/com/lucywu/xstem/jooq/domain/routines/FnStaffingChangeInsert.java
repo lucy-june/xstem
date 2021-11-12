@@ -4,12 +4,12 @@
 package com.lucywu.xstem.jooq.domain.routines;
 
 
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+
 import javax.annotation.Generated;
 
 import org.jooq.Parameter;
 import org.jooq.impl.AbstractRoutine;
-
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
 
 
 /**
@@ -25,7 +25,7 @@ import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class FnStaffingChangeInsert extends AbstractRoutine<Object> {
 
-	private static final long serialVersionUID = -589948703;
+	private static final long serialVersionUID = 582516307;
 
 	/**
 	 * The parameter <code>ss1604c195_rd2.fn_staffing_change_insert.RETURN_VALUE</code>.

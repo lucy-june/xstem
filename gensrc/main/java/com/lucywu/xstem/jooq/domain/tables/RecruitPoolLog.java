@@ -4,6 +4,10 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Keys;
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.RecruitPoolLogRecord;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.Arrays;
@@ -17,10 +21,6 @@ import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.UniqueKey;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Keys;
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.RecruitPoolLogRecord;
 
 
 /**
@@ -36,7 +36,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.RecruitPoolLogRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitPoolLog extends TableImpl<RecruitPoolLogRecord> {
 
-	private static final long serialVersionUID = -735751796;
+	private static final long serialVersionUID = 1895868;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.recruit_pool_log</code>

@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.TestComments;
+
 import java.sql.Timestamp;
 
 import javax.annotation.Generated;
@@ -13,8 +15,6 @@ import org.jooq.Record1;
 import org.jooq.Record6;
 import org.jooq.Row6;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.TestComments;
 
 
 /**
@@ -30,7 +30,7 @@ import com.lucywu.xstem.jooq.domain.tables.TestComments;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class TestCommentsRecord extends UpdatableRecordImpl<TestCommentsRecord> implements Record6<Integer, Integer, String, String, String, Timestamp> {
 
-	private static final long serialVersionUID = 1611473481;
+	private static final long serialVersionUID = 714947179;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.test_comments.ID</code>.

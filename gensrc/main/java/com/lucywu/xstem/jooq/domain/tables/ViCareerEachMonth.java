@@ -4,15 +4,15 @@
 package com.lucywu.xstem.jooq.domain.tables;
 
 
+import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
+import com.lucywu.xstem.jooq.domain.tables.records.ViCareerEachMonthRecord;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
 import org.jooq.Table;
 import org.jooq.TableField;
 import org.jooq.impl.TableImpl;
-
-import com.lucywu.xstem.jooq.domain.Ss1604c195Rd2;
-import com.lucywu.xstem.jooq.domain.tables.records.ViCareerEachMonthRecord;
 
 
 /**
@@ -28,7 +28,7 @@ import com.lucywu.xstem.jooq.domain.tables.records.ViCareerEachMonthRecord;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ViCareerEachMonth extends TableImpl<ViCareerEachMonthRecord> {
 
-	private static final long serialVersionUID = -441070811;
+	private static final long serialVersionUID = -1230577151;
 
 	/**
 	 * The reference instance of <code>ss1604c195_rd2.vi_career_each_month</code>

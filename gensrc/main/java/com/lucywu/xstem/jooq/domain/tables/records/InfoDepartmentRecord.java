@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.InfoDepartment;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
@@ -11,8 +13,6 @@ import org.jooq.Record1;
 import org.jooq.Record3;
 import org.jooq.Row3;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.InfoDepartment;
 
 
 /**
@@ -28,7 +28,7 @@ import com.lucywu.xstem.jooq.domain.tables.InfoDepartment;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class InfoDepartmentRecord extends UpdatableRecordImpl<InfoDepartmentRecord> implements Record3<Integer, String, Integer> {
 
-	private static final long serialVersionUID = 2107854862;
+	private static final long serialVersionUID = -1055375312;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.info_department.departmentid</code>.

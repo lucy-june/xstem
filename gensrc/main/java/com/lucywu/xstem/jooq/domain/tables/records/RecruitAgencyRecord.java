@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.RecruitAgency;
+
 import javax.annotation.Generated;
 
 import org.jooq.Field;
@@ -11,8 +13,6 @@ import org.jooq.Record1;
 import org.jooq.Record5;
 import org.jooq.Row5;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.RecruitAgency;
 
 
 /**
@@ -28,7 +28,7 @@ import com.lucywu.xstem.jooq.domain.tables.RecruitAgency;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RecruitAgencyRecord extends UpdatableRecordImpl<RecruitAgencyRecord> implements Record5<Integer, String, String, String, String> {
 
-	private static final long serialVersionUID = 2109265598;
+	private static final long serialVersionUID = 11097056;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.recruit_agency.agencyid</code>.

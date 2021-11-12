@@ -4,6 +4,8 @@
 package com.lucywu.xstem.jooq.domain.tables.records;
 
 
+import com.lucywu.xstem.jooq.domain.tables.StaffingChange;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 
@@ -14,8 +16,6 @@ import org.jooq.Record1;
 import org.jooq.Record11;
 import org.jooq.Row11;
 import org.jooq.impl.UpdatableRecordImpl;
-
-import com.lucywu.xstem.jooq.domain.tables.StaffingChange;
 
 
 /**
@@ -31,7 +31,7 @@ import com.lucywu.xstem.jooq.domain.tables.StaffingChange;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class StaffingChangeRecord extends UpdatableRecordImpl<StaffingChangeRecord> implements Record11<Integer, Integer, Integer, Date, Integer, Integer, Integer, Timestamp, Timestamp, Integer, Integer> {
 
-	private static final long serialVersionUID = -201664286;
+	private static final long serialVersionUID = -932402556;
 
 	/**
 	 * Setter for <code>ss1604c195_rd2.staffing_change.steid</code>.
