@@ -6,6 +6,7 @@
 - Install eclipse java EE: https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip
 - Import the project: Open eclipse > File > Import >  Maven > Existing Maven Projects, then choose this project folder and click "Finish".
 - To run the project, find the "Application.java", right click Run As > Run Configurations > Arguments > VM Arguments, add "-Dspring.profiles.active=production" so as to run in prod mode with the parameters in "src/main/resources/application-production.properties  -Dserver.port=8081". If successful, the last line of the console will print "Started Application in *** seconds (JVM running for ***)"
+- As an alternative, you can also run the project by: "$ mvnw package" to generate the binary in target/ and "$ www.bat" to start the binary.
 - To check web page, open http://localhost:8081. The page has three different mode: Candidate mode(username:w1@qq.com, pwd:123), HR mode(username:hr@qq.com, pwd:123), Manager mode(username:mg1@qq.com, pwd:123)
 
 
