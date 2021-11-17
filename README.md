@@ -1,6 +1,7 @@
-# Development Environment Setup
+﻿# Development Environment Setup
 
 ## Coding
+- System requirement windows 2016 server base/ windows 2016 server data center/ windows 7.
 - Install jdk8 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html and configure JAVA_HOME and PATH environment variables.
 - Install eclipse java EE: https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip
 - Import the project: Open eclipse > File > Import >  Maven > Existing Maven Projects, then choose this project folder and click "Finish".
